@@ -62,7 +62,6 @@ class MainActivity : AppCompatActivity() {
             arrayOf("Title", "Content"),
             intArrayOf(R.id.title, R.id.content)
         )
-
         podslist.adapter = podsAdapter
 
         val button: FloatingActionButton = findViewById(R.id.voice_input_button)
